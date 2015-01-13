@@ -1,0 +1,33 @@
+{
+  "name": "burnbot",
+  "version": "0.0.1",
+  "description": "Burn Bot!!!",
+  "author": "Isaac Murchie <isaac@saucelabs.com>",
+  "contributors": [
+    {
+      "name": "Isaac Murchie",
+      "email": "isaac@saucelabs.com"
+    }
+  ],
+  "bin": {
+    "module-name": "./bin/main"
+  },
+  "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imurchie/burnbot"
+  },
+  "bugs": {
+    "url": "https://github.com/imurchie/burnbot/issues"
+  },
+  "keywords": [
+    "burn",
+    "bot"
+  ],
+  "dependencies": {
+    "johnny-five": "^0.8.37",
+    "raspi-io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "license": "APACHE 2.0"
+}
